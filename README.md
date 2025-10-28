@@ -7,7 +7,11 @@ I mostly study earthquakes and volcanic eruptions. My research analyzes subtle g
 ## Open-source projects
 
 
+<div>
+
 <img src="https://github.com/leonard-seydoux/covseisnet/raw/main/docs/source/_static/logo_covseisnet_normal.svg" width="90" style="float: left; margin-right: 20px;"/>[Covseisnet](https://github.com/leonard-seydoux/covseisnet) is a Python package for array signal processing, with a focus on data from seismic networks. The core mathematical object of the package is the network covariance matrix, used for signal detection, source separation, localisation, and plane-wave beamforming. The signal detection and processing methods are based on the analysis of the covariance matrix spectrum. The covariance matrix can be used as input for classical array processing tools such as beamforming and inter-station cross-correlations. 
+
+</div>
 
 <img src="https://github.com/scatseisnet/scatseisnet/blob/main/docs/source/logo/logo_scatseisnet_notext.png?raw=true" alt="Scatseisnet logo" width="90" style="float: left; margin-right: 20px;"/> [Scatseisnet](https://github.com/scatseisnet/scatseisnet) is a Python package for seismic signal detection and classification using deep learning. It is built on top of Covseisnet and leverages covariance matrix analysis for efficient seismic data processing. The package includes pre-trained models for various seismic signal types, including earthquakes, volcanic tremors, and anthropogenic noise. Scatseisnet is designed to be user-friendly and easily integrable into existing seismic data analysis workflows.
 
