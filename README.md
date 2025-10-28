@@ -6,6 +6,8 @@ I mostly study earthquakes and volcanic eruptions. My research analyzes subtle g
 
 ## Open-source projects
 
+There are several open-source projects that I develop and maintain. If you find them useful, please consider giving feedback, reporting issues, or contributing to their development!
+
 
 |Project|Description|
 |:-|:-|
