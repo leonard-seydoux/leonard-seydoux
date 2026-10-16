@@ -1,0 +1,20 @@
+name: Mirror to Koda
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      KODA_TOKEN: ${{ secrets.KODA_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push main to Koda
+        if: env.KODA_TOKEN != ''
+        run: git push "https://oauth2:${KODA_TOKEN}@src.koda.cnrs.fr/leonard-seydoux/leonard-seydoux.git" HEAD:main
